@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Tastatur</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Online Tastatur</h1>
+        </header>
+        <div id="main-div">
+            <h2>Experimenting with an on-screen keyboard</h2>
+            <output type="text" id="outputBox"></output>
+            
+            <!-- Tastatur -->
+            <div id="komplette-tastatur">
+                <div id="zahlen" class="row">
+                    <button class="taste" id="button1" onclick="putOut1()">1</button>
+                    <button class="taste" id="button2" onclick="putOut2()">2</button>
+                    <button class="taste" id="button3" onclick="putOut3()">3</button>
+                    <button class="taste" id="button4" onclick="putOut4()">4</button>
+                    <button class="taste">5</button>
+                    <button class="taste">6</button>
+                    <button class="taste">7</button>
+                    <button class="taste">8</button>
+                    <button class="taste">9</button>
+                    <button class="taste">0</button>
+                </div>
+                <div id="upper-row" class="row">
+                    <button class="taste">W</button>
+                    <button class="taste">Q</button>
+                    <button class="taste">E</button>
+                    <button class="taste">R</button>
+                    <button class="taste">T</button>
+                    <button class="taste">Z</button>
+                    <button class="taste">U</button>
+                    <button class="taste">I</button>
+                    <button class="taste">O</button>
+                    <button class="taste">P</button>
+                </div>
+                <div id="middle-row" class="row">
+                    <button class="taste">A</button>
+                    <button class="taste">S</button>
+                    <button class="taste">D</button>
+                    <button class="taste">F</button>
+                    <button class="taste">G</button>
+                    <button class="taste">H</button>
+                    <button class="taste">J</button>
+                    <button class="taste">K</button>
+                    <button class="taste">L</button>
+                </div>
+                <div id="lower-row" class="row">
+                    <button class="taste">Y</button>
+                    <button class="taste">X</button>
+                    <button class="taste">C</button>
+                    <button class="taste">V</button>
+                    <button class="taste">B</button>
+                    <button class="taste">N</button>
+                    <button class="taste">M</button>
+                </div>
+                <div id="spacebar" class="row">
+                    <button class="taste"> </button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
